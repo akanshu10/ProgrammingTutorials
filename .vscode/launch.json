@@ -5,6 +5,496 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "Permutation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingExample1",
+            "request": "launch",
+            "mainClass": "CountingExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegxExample1",
+            "request": "launch",
+            "mainClass": "RegxExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch area_parameter",
+            "request": "launch",
+            "mainClass": "area_parameter",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch BufferedInputStreamExample",
+            "request": "launch",
+            "mainClass": "BufferedInputStreamExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch BufferedOutputStreamExample",
+            "request": "launch",
+            "mainClass": "BufferedOutputStreamExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileInputStreamExample",
+            "request": "launch",
+            "mainClass": "FileInputStreamExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch FIleOutputStreamExample2",
+            "request": "launch",
+            "mainClass": "FIleOutputStreamExample2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileOutputStreamExample",
+            "request": "launch",
+            "mainClass": "FileOutputStreamExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintWord",
+            "request": "launch",
+            "mainClass": "PrintWord",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClass",
+            "request": "launch",
+            "mainClass": "TestClass",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringToken1",
+            "request": "launch",
+            "mainClass": "StringToken1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImmutableDemo",
+            "request": "launch",
+            "mainClass": "ImmutableDemo",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConcatTest",
+            "request": "launch",
+            "mainClass": "ConcatTest",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBufferExample1",
+            "request": "launch",
+            "mainClass": "StringBufferExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringOperatuin6",
+            "request": "launch",
+            "mainClass": "StringOperatuin6",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringOperation3",
+            "request": "launch",
+            "mainClass": "StringOperation3",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSubstring",
+            "request": "launch",
+            "mainClass": "TestSubstring",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Substring",
+            "request": "launch",
+            "mainClass": "Substring",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStringComparision",
+            "request": "launch",
+            "mainClass": "TestStringComparision",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestImmutableString",
+            "request": "launch",
+            "mainClass": "TestImmutableString",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthExample4",
+            "request": "launch",
+            "mainClass": "LengthExample4",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseOfString",
+            "request": "launch",
+            "mainClass": "ReverseOfString",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharAtExample6",
+            "request": "launch",
+            "mainClass": "CharAtExample6",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharAtExample2",
+            "request": "launch",
+            "mainClass": "CharAtExample2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharAtExample",
+            "request": "launch",
+            "mainClass": "CharAtExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExample1",
+            "request": "launch",
+            "mainClass": "StringExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEncapsulation",
+            "request": "launch",
+            "mainClass": "TestEncapsulation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch A7",
+            "request": "launch",
+            "mainClass": "A7",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch A6",
+            "request": "launch",
+            "mainClass": "A6",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterfaceTest1",
+            "request": "launch",
+            "mainClass": "InterfaceTest1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestAbsraction1",
+            "request": "launch",
+            "mainClass": "TestAbsraction1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Honda4",
+            "request": "launch",
+            "mainClass": "Honda4",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPolymorphism",
+            "request": "launch",
+            "mainClass": "TestPolymorphism",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch InitializerExample",
+            "request": "launch",
+            "mainClass": "InitializerExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoverientExample",
+            "request": "launch",
+            "mainClass": "CoverientExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestOverloading1",
+            "request": "launch",
+            "mainClass": "TestOverloading1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parent1",
+            "request": "launch",
+            "mainClass": "Parent1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursionExample2",
+            "request": "launch",
+            "mainClass": "RecursionExample2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecusionExample",
+            "request": "launch",
+            "mainClass": "RecusionExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Javapoint",
+            "request": "launch",
+            "mainClass": "Javapoint",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch unboxing",
+            "request": "launch",
+            "mainClass": "unboxing",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch WrapperClassExample",
+            "request": "launch",
+            "mainClass": "WrapperClassExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CloneObjectExample",
+            "request": "launch",
+            "mainClass": "CloneObjectExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberToWord",
+            "request": "launch",
+            "mainClass": "NumberToWord",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNUberExample5",
+            "request": "launch",
+            "mainClass": "RandomNUberExample5",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumberExample4",
+            "request": "launch",
+            "mainClass": "RandomNumberExample4",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomExample3",
+            "request": "launch",
+            "mainClass": "RandomExample3",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomExample1",
+            "request": "launch",
+            "mainClass": "RandomExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomNumberExample1",
+            "request": "launch",
+            "mainClass": "RandomNumberExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibnocciSeries",
+            "request": "launch",
+            "mainClass": "FibnocciSeries",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicateInArray",
+            "request": "launch",
+            "mainClass": "RemoveDuplicateInArray",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateElement",
+            "request": "launch",
+            "mainClass": "DuplicateElement",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rotateleft",
+            "request": "launch",
+            "mainClass": "Rotateleft",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frequency",
+            "request": "launch",
+            "mainClass": "Frequency",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixMultipliaction",
+            "request": "launch",
+            "mainClass": "MatrixMultipliaction",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestdemoCopy",
+            "request": "launch",
+            "mainClass": "TestdemoCopy",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestJaggedArray",
+            "request": "launch",
+            "mainClass": "TestJaggedArray",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayExample2",
+            "request": "launch",
+            "mainClass": "ArrayExample2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Table",
+            "request": "launch",
+            "mainClass": "Table",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassLoaderExample",
+            "request": "launch",
+            "mainClass": "ClassLoaderExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringExample",
+            "request": "launch",
+            "mainClass": "StringExample",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern2",
+            "request": "launch",
+            "mainClass": "pattern2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayOne",
+            "request": "launch",
+            "mainClass": "ArrayOne",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch digitalsum",
+            "request": "launch",
+            "mainClass": "digitalsum",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
             "name": "gcc.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",

@@ -1,2 +1,3 @@
-name="anshika"
-print(name[::-1])
+name="Akanshu kumar"
+n=len(name.split())
+print(n)
