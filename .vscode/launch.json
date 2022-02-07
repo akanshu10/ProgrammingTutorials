@@ -5,6 +5,295 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "(Windows) Attach",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
+        {
+            "name": "(gdb) Pipe Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "<full path to pipe program such as plink.exe>",
+                "pipeArgs": [],
+                "pipeCwd": ""
+            },
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Pipe Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "processId": "${command:pickRemoteProcess}",
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "<full path to pipe program such as plink.exe>",
+                "pipeArgs": [],
+                "pipeCwd": ""
+            },
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Bash on Windows Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Bash on Windows Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "processId": "${command:pickRemoteProcess}",
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringDemo",
+            "request": "launch",
+            "mainClass": "StringDemo",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prashant",
+            "request": "launch",
+            "mainClass": "Prashant",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionExample1",
+            "request": "launch",
+            "mainClass": "Exception.ExceptionExample1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Regx3",
+            "request": "launch",
+            "mainClass": "RegxExpression.Regx3",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Regx2",
+            "request": "launch",
+            "mainClass": "RegxExpression.Regx2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Regx1",
+            "request": "launch",
+            "mainClass": "RegxExpression.Regx1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintC",
+            "request": "launch",
+            "mainClass": "PatternPrinting.PrintC",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintB",
+            "request": "launch",
+            "mainClass": "PatternPrinting.PrintB",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintA",
+            "request": "launch",
+            "mainClass": "PatternPrinting.PrintA",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern2",
+            "request": "launch",
+            "mainClass": "PatternPrinting.Pattern2",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern1",
+            "request": "launch",
+            "mainClass": "PatternPrinting.Pattern1",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidRectangle",
+            "request": "launch",
+            "mainClass": "PatternPrinting.SolidRectangle",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneLine",
+            "request": "launch",
+            "mainClass": "PatternPrinting.OneLine",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtLeastTimeTakenPermutation",
+            "request": "launch",
+            "mainClass": "Permutation.AtLeastTimeTakenPermutation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "Permutation.Permutation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtMostTimeTakenPermutation",
+            "request": "launch",
+            "mainClass": "Permutation.AtMostTimeTakenPermutation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtLeastTimeTakenPermutation",
+            "request": "launch",
+            "mainClass": "AtLeastTimeTakenPermutation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtMostTimeTakenPermutation",
+            "request": "launch",
+            "mainClass": "AtMostTimeTakenPermutation",
+            "projectName": "ProgrammingTutorials_10cfd20e"
+        },
+        {
             "type": "java",
             "name": "Launch Permutation",
             "request": "launch",

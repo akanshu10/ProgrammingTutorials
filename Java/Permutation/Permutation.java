@@ -1,4 +1,7 @@
+package Permutation;
 import java.util.*;
+
+//import Factorial;
 public class Permutation {
     public static int permutation(int n,int r){
         if(n<r){

@@ -1,19 +1,15 @@
-import java.util.*;
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 class TestClass{
-    public static void main(String[] args) throws IOException,ArrayIndexOutOfBoundsException{
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        Scanner sc=new Scanner(System.in);
-        int testcase = sc.nextInt();
-        for(int i=0;i<testcase;i++){
-            int rows = sc.nextInt();
-            int cols = sc.nextInt();
-            
-            sc.nextLine();
-            char arr[][]=new char[rows][cols];
+    TestClass(byte a ,int b){
+        System.out.println("hello a "+a+"b "+b);
+    }
+    TestClass(double a ,double b){
+        System.out.println("Bye a "+a+"b "+b);
+    }
+    public static void main(String[] args) {
+        byte a=10;
+        byte b=15;
+        TestClass t =new TestClass(a, b);
 
-        }
+
     }
 }
